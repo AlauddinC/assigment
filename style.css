@@ -3,15 +3,6 @@
   padding: 0px;
   font-family: "Work Sans", sans-serif;
 }
-/* Home page */
-.home {
-  width: 100%;
-  height: 75px;
-  line-height: 75;
-  padding: 0px 100px;
-  position: relative;
-  background-image: url(./images/banner/banner2.png);
-}
 /* Header Section */
 .background-image {
   background-image: url(./images/banner/banner3.png);
