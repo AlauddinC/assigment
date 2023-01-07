@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+/* Home page */
+.home {
+  width: 100%;
+  height: 75px;
+  line-height: 75;
+  padding: 0px 100px;
+  position: relative;
+  background-image: url(./images/banner/banner2.png);
+}
+/* Header Section */
+.background-image {
+  background-image: url(./images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.header-text {
+  text-align: right;
+  padding-top: 120px;
+  padding-right: 130px;
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+}
+.header-paragraph {
+  text-align: right;
+  padding-right: 130px;
+  padding-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.button {
+  margin-top: 25px;
+  text-align: right;
+  margin-right: 130px;
+}
+.button-header {
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+  color: #005fac;
+  border: 0;
+  padding: 18px 35px;
+  background: #f2ebe6;
+
+  border-radius: 5px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 150px 200px;
+  gap: 70px;
+}
+.banner-title {
+  font-weight: 1000;
+  font-size: 50px;
+  color: #151414;
+}
+.banner-description {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+
+ul li:before {
+  content: "\2713";
+  display: inline-block;
+  color: #16d887;
+  padding: 0 10px 0 0;
+}
+ul li {
+  list-style-type: none;
+  font-size: 1em;
+}
+/* MY plan section */
+.plan {
+  margin-top: 130px;
+}
+.plan-sub {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #151414;
+}
+.wants {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+  padding-left: 150px;
+}
+.want-sub {
+  padding: 30px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.want-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #181818;
+  font-weight: 700;
+  font-size: 25px;
+}
+.wants-description {
+  color: #737272;
+  font-weight: 500;
+  font-size: 20px;
+}
+.background-img {
+  background-image: url(./images/gradient1.png), url(./images/watch.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30vh;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.pic-header {
+  padding-top: 50px;
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+.mindset-button {
+  margin-top: 25px;
+  text-align: left;
+  margin-left: 30px;
+}
+.mindset-header {
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+  color: #005fac;
+  border: 0;
+  padding: 13px 30px;
+  background: #f2ebe6;
+  border-radius: 5px;
+}
+/* footer section */
+.foot {
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
+  background: #0a0706;
+  padding: 150px;
+}
+.foot .foot-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ffffff;
+  text-align: left;
+}
+.foot-paragraph {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 8px;
+  padding-right: 150px;
+  color: #ffffff;
+}
+
+.foot input[type="text"] {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+  background-color: #0a0706;
+}
+input {
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 7px;
+}
+
+.foot a {
+  text-decoration: none;
+  padding: 5px;
+}
+.last-title {
+  font-weight: 600;
+  font-size: 23px;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.last {
+  margin-top: 10px;
+  text-align: right;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  border: 0;
+  padding: 10px 20px;
+  background: #005fac;
+  border-radius: 8px;
+}
